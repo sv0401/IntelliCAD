@@ -31,4 +31,4 @@ Hansung University Capstone Design Project
 ![ex_1](./demo/chart.png)
 
 - demo<br><br>
-![ex_1](./demo/demo.PNG)
+![ex_1](./demo/demo.png)
