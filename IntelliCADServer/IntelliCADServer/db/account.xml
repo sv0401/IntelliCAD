@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<account_list>
+  <account>
+    <id>user1</id>
+    <password>1234</password>
+    <name>Sein Lee</name>
+  </account>
+  <account>
+    <id>user2</id>
+    <password>1234</password>
+    <name>Subaek Oh</name>
+  </account>
+</account_list>

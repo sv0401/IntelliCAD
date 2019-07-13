@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\ui">
+      <UniqueIdentifier>{de0a985e-9fd8-41bf-a833-b7ceabf32ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui">
+      <UniqueIdentifier>{fadfd02c-b1d1-46f2-8890-9bea0adb0730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ui\rendering_view">
+      <UniqueIdentifier>{c4559f61-9e70-405c-b48c-b38f368eaefd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui\rendering_view">
+      <UniqueIdentifier>{0880da00-59a1-4149-a44e-07e6228a0028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\common">
+      <UniqueIdentifier>{ea5e81f0-c029-4c23-98f3-25c03187580c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\event">
+      <UniqueIdentifier>{4be0a7ef-9a5f-4572-a185-31d47a382300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\system">
+      <UniqueIdentifier>{4776cb82-3d9b-4a07-a4d9-e19a9b745110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\task">
+      <UniqueIdentifier>{cc9a0526-d33c-47b8-9b8d-a5f23045d09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{d4b513ea-fa00-4dba-93ce-98149c44557c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\common">
+      <UniqueIdentifier>{d797adef-4142-410c-8de9-bdd7df6be21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\event">
+      <UniqueIdentifier>{51276c6c-6f30-4a41-86bd-60972506ce7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\system">
+      <UniqueIdentifier>{13e2257f-78ba-43eb-9253-f864056946f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\task">
+      <UniqueIdentifier>{9df23a6e-fb55-45af-b632-0119a30494b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{c4708df2-a027-47f3-981f-3a717c33ceaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\machine_learning">
+      <UniqueIdentifier>{2971ab4f-1814-42f0-bfcb-fb560cded1c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\machine_learning">
+      <UniqueIdentifier>{c38eecbf-a581-494e-a53e-851b999baa13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui\form_view">
+      <UniqueIdentifier>{c15d2ec5-3ac7-408a-a0b9-243151cdda5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ui\form_view">
+      <UniqueIdentifier>{e9e585b4-d32d-4259-948f-516f6bf238a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db">
+      <UniqueIdentifier>{bfbb11ae-5ab7-41ee-8a73-24bdd2cda517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\db">
+      <UniqueIdentifier>{6a80c131-a5ee-4f01-ae20-321bbd1add9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\network">
+      <UniqueIdentifier>{52f17b22-6903-43a9-9f91-8ee200718635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\network">
+      <UniqueIdentifier>{298cf416-86b0-4a4c-8b42-85943b2cf2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\stream">
+      <UniqueIdentifier>{cac7c857-c978-4587-a09e-37803d7cfaa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\stream">
+      <UniqueIdentifier>{9fe31798-4325-4299-90de-0233e7976ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\util\volume_reader">
+      <UniqueIdentifier>{cb7fa4ed-3cf7-4bac-bf00-ceae29f2c70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\util\volume_reader">
+      <UniqueIdentifier>{10719c80-a3fb-42c1-871d-7498b6a92061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\security">
+      <UniqueIdentifier>{e1bcef80-c952-406a-b596-310365ae746c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\security">
+      <UniqueIdentifier>{700fff21-de91-4ea3-9a3f-fbb4449a051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui\dialog">
+      <UniqueIdentifier>{a4db6976-7f5e-427a-b2e7-5992486c663a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ui\dialog">
+      <UniqueIdentifier>{3694ec37-8875-47d8-9f75-da3b25ac7104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\event\interface">
+      <UniqueIdentifier>{db3178c1-3756-46de-9d8f-f9a23f0545b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ui\chart">
+      <UniqueIdentifier>{d67c3d3d-55a1-489b-986a-9b9778b6c31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui\chart">
+      <UniqueIdentifier>{5dbc48ce-7df8-4d48-a94e-38dc9b242c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\event\interface\transfer_function">
+      <UniqueIdentifier>{b1d8bd15-bed6-4ec3-a45d-ff0448f823d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\event\interface\stream">
+      <UniqueIdentifier>{bed14b44-e962-482f-8a71-8a7872a9aef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db\config">
+      <UniqueIdentifier>{20d10fac-4d11-4e0b-8e5e-c687c88635f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntelliCAD.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelliCADDoc.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelliCADView.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderingView.h">
+      <Filter>헤더 파일\ui\rendering_view</Filter>
+    </ClInclude>
+    <ClInclude Include="CVolumeRenderingView.h">
+      <Filter>헤더 파일\ui\rendering_view</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeEx.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTaskManager.hpp">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBroadcaster.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroTransaction.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkUtility.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTokenizer.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskType.h">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomSplitterWnd.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CCustomRibbonBar.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaHelper.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CInspecterView.h">
+      <Filter>헤더 파일\ui\form_view</Filter>
+    </ClInclude>
+    <ClInclude Include="CLightingView.h">
+      <Filter>헤더 파일\ui\form_view</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientNetwork.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamAnchorType.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementMeta.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadStream.hpp">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializable.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishedTask.h">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemIndirectAccessor.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="custom_cudart.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CSliceView.h">
+      <Filter>헤더 파일\ui\rendering_view</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeReader.h">
+      <Filter>헤더 파일\util\volume_reader</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaImageHeader.h">
+      <Filter>헤더 파일\util\volume_reader</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteAccessAuthorizer.h">
+      <Filter>헤더 파일\security</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthorizingResult.h">
+      <Filter>헤더 파일\security</Filter>
+    </ClInclude>
+    <ClInclude Include="CImageInfoDialog.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CManipDialog.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeSlicingPointListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionCheckListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionClosedListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerConnectingListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInitListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="VolumeLoadingListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderingScreenType.h">
+      <Filter>헤더 파일\ui\rendering_view</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestScreenUpdateListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginDlg.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CSliceViewFilterDlg.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartViewer.h">
+      <Filter>헤더 파일\ui\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="MTFChartBuilder.h">
+      <Filter>헤더 파일\ui\chart</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferFunctionUpdateListener.h">
+      <Filter>헤더 파일\event\interface\transfer_function</Filter>
+    </ClInclude>
+    <ClInclude Include="TransferFunctionType.h">
+      <Filter>헤더 파일\event\interface\transfer_function</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcessorInitializeListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginSuccessListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerInteractionInactiveDlg.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerInteractionActiveDlg.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDestroyListener.h">
+      <Filter>헤더 파일\event\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestingServerDBResult.h">
+      <Filter>헤더 파일\security</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamTransmittingListener.h">
+      <Filter>헤더 파일\event\interface\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="TransmittingDirectionType.h">
+      <Filter>헤더 파일\event\interface\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamTransmissionFinishedListener.h">
+      <Filter>헤더 파일\event\interface\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="CLogDialog.h">
+      <Filter>헤더 파일\ui\dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDBSectionType.h">
+      <Filter>헤더 파일\db\config</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDBManager.h">
+      <Filter>헤더 파일\db\config</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerFileDBSectionType.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>헤더 파일\security</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLBasedDBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IntelliCAD.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelliCADDoc.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelliCADView.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTaskManager.cpp">
+      <Filter>소스 파일\task</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBroadcaster.cpp">
+      <Filter>소스 파일\event</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkUtility.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTokenizer.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="CCustomSplitterWnd.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CCustomRibbonBar.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Constant.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaHelper.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CInspecterView.cpp">
+      <Filter>소스 파일\ui\form_view</Filter>
+    </ClCompile>
+    <ClCompile Include="CLightingView.cpp">
+      <Filter>소스 파일\ui\form_view</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientNetwork.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHeader.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementMeta.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializable.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemIndirectAccessor.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CVolumeRenderingView.cpp">
+      <Filter>소스 파일\ui\rendering_view</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderingView.cpp">
+      <Filter>소스 파일\ui\rendering_view</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginDlg.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CSliceView.cpp">
+      <Filter>소스 파일\ui\rendering_view</Filter>
+    </ClCompile>
+    <ClCompile Include="VolumeReader.cpp">
+      <Filter>소스 파일\util\volume_reader</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaImageHeader.cpp">
+      <Filter>소스 파일\util\volume_reader</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteAccessAuthorizer.cpp">
+      <Filter>소스 파일\security</Filter>
+    </ClCompile>
+    <ClCompile Include="CImageInfoDialog.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CManipDialog.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CSliceViewFilterDlg.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartViewer.cpp">
+      <Filter>소스 파일\ui\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="MTFChartBuilder.cpp">
+      <Filter>소스 파일\ui\chart</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerInteractionActiveDlg.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerInteractionInactiveDlg.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CLogDialog.cpp">
+      <Filter>소스 파일\ui\dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLBasedDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IntelliCAD.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\buttons.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\IntelliCADDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\IntelliCAD.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="C:\Users\GODJIN\Downloads\icons8-doctor-male-100.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="C:\Users\GODJIN\Downloads\doctor.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\logo.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\IntelliCAD_Img_Resource_Custom_Large.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\IntelliCAD_Resource_Img_ImgProcPanel.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\IntelliCAD.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="NumberUtility.hpp">
+      <Filter>헤더 파일\util</Filter>
+    </CudaCompile>
+    <CudaCompile Include="NumberUtility.cpp">
+      <Filter>소스 파일\util</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

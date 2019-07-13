@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dept_list>
+  <dept>
+    <index>0</index>
+    <name>Internal Medicine</name>
+    <abbreviation>IM</abbreviation>
+  </dept>
+
+  <dept>
+    <index>1</index>
+    <name>Gastroenterology</name>
+    <abbreviation>GI</abbreviation>
+  </dept>
+
+  <dept>
+    <index>2</index>
+    <name>Cardiology</name>
+    <abbreviation>CA</abbreviation>
+  </dept>
+
+  <dept>
+    <index>3</index>
+    <name>Cardiovascular Medicine</name>
+    <abbreviation>CV</abbreviation>
+  </dept>
+
+  <dept>
+    <index>4</index>
+    <name>Intracoronary</name>
+    <abbreviation>IC</abbreviation>
+  </dept>
+
+  <dept>
+    <index>5</index>
+    <name>Pulmonology</name>
+    <abbreviation>PM</abbreviation>
+  </dept>
+
+  <dept>
+    <index>6</index>
+    <name>Endocrinology</name>
+    <abbreviation>ED</abbreviation>
+  </dept>
+
+  <dept>
+    <index>7</index>
+    <name>Nephrology</name>
+    <abbreviation>NH</abbreviation>
+  </dept>
+
+  <dept>
+    <index>8</index>
+    <name>Rheumatology</name>
+    <abbreviation>RH</abbreviation>
+  </dept>
+
+  <dept>
+    <index>9</index>
+    <name>Hemato-oncology</name>
+    <abbreviation>HO</abbreviation>
+  </dept>
+</dept_list>

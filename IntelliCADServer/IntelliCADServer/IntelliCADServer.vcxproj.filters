@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\ui">
+      <UniqueIdentifier>{5edd5cac-012e-42c7-bea2-5c1f330d4e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ui">
+      <UniqueIdentifier>{524e0021-c121-4580-80ed-bf6b81abbf7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\common">
+      <UniqueIdentifier>{fcbfc715-2214-43ba-985f-5089dd6c5ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\common">
+      <UniqueIdentifier>{1861584f-5b29-4db5-92d0-cf5855614764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\network">
+      <UniqueIdentifier>{045bb1de-5b59-41c3-924d-07aca0075806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\network">
+      <UniqueIdentifier>{bd20031d-e9ff-4f39-8085-713cf52f7cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\system">
+      <UniqueIdentifier>{50a89240-b0b0-4284-bfc6-6dc94b1ba1d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\system">
+      <UniqueIdentifier>{d796bf82-dd1a-4d46-98a6-5f6cadf27d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\task">
+      <UniqueIdentifier>{384831b1-7efc-40b7-b0cf-b7a90bb60b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\task">
+      <UniqueIdentifier>{de2f3747-c86a-47db-9789-ed8c8b339397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\event">
+      <UniqueIdentifier>{4832a7d9-757f-4fca-b2a9-0849c916aa59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\event">
+      <UniqueIdentifier>{b5150023-9698-48c6-a696-32ab3a450773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\util">
+      <UniqueIdentifier>{3e6d1981-51d2-483b-ab11-987c0a77fa26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\util">
+      <UniqueIdentifier>{5ed69a8b-a329-4a77-b10e-3239f833e06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\stream">
+      <UniqueIdentifier>{affadb38-9efe-4bbf-93c1-2f184f8bd676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\stream">
+      <UniqueIdentifier>{1db4b74d-4912-4a51-b360-e19762073b61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\db">
+      <UniqueIdentifier>{28818527-619c-4699-bd5b-3a9b5c5f69d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db">
+      <UniqueIdentifier>{cb5aaa4a-2dad-4a85-8f96-2564a668c860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db\config">
+      <UniqueIdentifier>{13efc9c4-7553-49a0-bda4-a6975d29b78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db\account">
+      <UniqueIdentifier>{5f111d3b-bdc6-4882-ae85-0f96db34cc07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\db\department">
+      <UniqueIdentifier>{b7fe5c50-cc2c-4c04-a1ae-ff1f482ac87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\db\department">
+      <UniqueIdentifier>{8c71baf0-12a8-4858-b4ef-09f1eed54e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\db\account">
+      <UniqueIdentifier>{9a567c25-c140-4eb3-b23e-bdd02030c7e1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntelliCADServer.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelliCADServerDlg.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>헤더 파일\system</Filter>
+    </ClInclude>
+    <ClInclude Include="AsyncTaskManager.hpp">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="EventBroadcaster.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientAcceptingListener.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionCheckListener.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectionClosedListener.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="GenericListener.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHeader.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerNetwork.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerSocket.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>헤더 파일\network</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemInitListener.h">
+      <Filter>헤더 파일\event</Filter>
+    </ClInclude>
+    <ClInclude Include="tstring.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeEx.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroTransaction.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskType.h">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishedTask.h">
+      <Filter>헤더 파일\task</Filter>
+    </ClInclude>
+    <ClInclude Include="ElementMeta.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectStream.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadStream.hpp">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamAnchorType.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializable.h">
+      <Filter>헤더 파일\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkUtility.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberUtility.hpp">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.hpp">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamDumper.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTokenizer.h">
+      <Filter>헤더 파일\util</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>헤더 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerDBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDBManager.h">
+      <Filter>헤더 파일\db\config</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigDBSectionType.h">
+      <Filter>헤더 파일\db\config</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>헤더 파일\db\account</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountDBManager.h">
+      <Filter>헤더 파일\db\account</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerFileDBSectionType.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLBasedDBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="DBManager.h">
+      <Filter>헤더 파일\db</Filter>
+    </ClInclude>
+    <ClInclude Include="DepartmentDBManager.h">
+      <Filter>헤더 파일\db\department</Filter>
+    </ClInclude>
+    <ClInclude Include="Department.h">
+      <Filter>헤더 파일\db\department</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IntelliCADServer.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelliCADServerDlg.cpp">
+      <Filter>소스 파일\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>소스 파일\system</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncTaskManager.cpp">
+      <Filter>소스 파일\task</Filter>
+    </ClCompile>
+    <ClCompile Include="EventBroadcaster.cpp">
+      <Filter>소스 파일\event</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHeader.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerNetwork.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerSocket.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>소스 파일\network</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="ElementMeta.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectStream.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializable.cpp">
+      <Filter>소스 파일\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkUtility.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamDumper.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTokenizer.cpp">
+      <Filter>소스 파일\util</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="Constant.cpp">
+      <Filter>소스 파일\common</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="DBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLBasedDBManager.cpp">
+      <Filter>소스 파일\db</Filter>
+    </ClCompile>
+    <ClCompile Include="Department.cpp">
+      <Filter>소스 파일\db\department</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountDBManager.cpp">
+      <Filter>소스 파일\db\account</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>소스 파일\db\account</Filter>
+    </ClCompile>
+    <ClCompile Include="DepartmentDBManager.cpp">
+      <Filter>소스 파일\db\department</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IntelliCADServer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\IntelliCADServer.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\IntelliCADServer.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
